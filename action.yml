@@ -1,0 +1,12 @@
+name: "Greet User (JS)"
+description: "Greets the user by name"
+inputs:
+  name:
+    description: "Name of the person to greet"
+    required: true
+outputs:
+  greeting:
+    description: "The greeting message"
+runs:
+  using: "node20"
+  main: "index.js"
